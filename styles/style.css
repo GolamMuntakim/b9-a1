@@ -1,0 +1,227 @@
+/* section one style start */
+.banner{
+    display: block;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #0d0c0d 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.title{
+  position: relative;
+  text-align: center;
+}
+.title-info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #dfd4d4;
+  transform:translate(-50%, -50%);
+  font-family: Merriweather;
+}
+.small{
+    font-size: 32px;
+    font-weight: 400;
+}
+.big{
+
+   font-size: 72px;
+   font-weight: 900;
+   line-height: 95px; 
+}
+/* section one style end */
+/* section two start */
+.discount{
+    background: #FFF;
+    text-align: center;
+   
+}
+.dis{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.little-dis{
+    color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+}
+.dis-info{
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+
+}
+
+.new-year-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* section two end */
+/* section three start */
+.section-three-conatiner{
+    margin-left:80px;
+    margin-right: 80px;
+}
+.double-image{
+    background-image: url('../images/Vectorrr.png'),linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    border-radius: 15px;
+}
+
+.group{
+    height: 400px;
+    padding-top: 30px;
+}
+.section-three-info{
+    padding-top: 20px;
+}
+.section-three-info-two{
+    color: #ece5e5;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.section-three-info-three{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.join{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* section three end */
+/* section four start */
+.section-fou-info{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.section-four-info-container{
+    border: 1px solid none;
+    border-radius: 15px;
+    height: 400px;
+    padding: 20px;
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+    position: relative;
+}
+.pan{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.pera{
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 32px;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.btn{
+    color: #FFF;
+    display: flex;
+    position: absolute;
+    left:45%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+/* section four end */
+/* secion five start */
+.section-five{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    background: #FFF;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.first-info{
+    padding-top: 27px;
+}
+.new{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.dolor{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.second-info{  
+   flex-shrink: 0;
+   border-radius: 463px;
+   border: 15px solid #F00;
+}
+.circle{
+    margin:30px;
+    height: 450px;
+}
+.twen{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.dolor-sit{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+/* section five end */
