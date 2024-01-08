@@ -347,7 +347,7 @@ line-height: 32px; /* 160% */
 /* section nine start */
 .section-nine{
     border:1px solid black;
-    height: 600px;
+    height: 500px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     border: none;
@@ -382,14 +382,14 @@ line-height: 32px; /* 160% */
     line-height: 32px; 
 }
 .search-bar{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 .bar{
     padding: 30px;
     font-size: 20px;
-    width: 648px;
-    height: 72px;
+    width: 640px;
+    height: 70px;
     flex-shrink: 0;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
@@ -415,7 +415,6 @@ line-height: 32px; /* 160% */
     margin-right:20px ;
     background: #070211;
     border: 1px solid #070211;
-    height: 1500;
     border-radius:10px;
     padding: 30px;
 }
