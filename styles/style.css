@@ -225,3 +225,249 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 }
 /* section five end */
+/* section six start */
+.section-six{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.what{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+.holi{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.section-six-pera{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+/* section six end */
+/* section seven start */
+.section-seven{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.lady{
+    height: 310px;
+    position:absolute;
+    padding-bottom: 200px;
+}
+.more{
+  position: relative;
+  right:200px;
+}
+.red{
+    position: absolute;
+    width:1333px;
+    height:100px;
+    
+}
+/* section seven start */
+/* section eight start */
+.product{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.section-eight-container{
+    margin-left: 60px;
+}
+.the{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.our{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.section-eight-info{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 90px;
+}
+.one:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.two:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.three:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.four:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.five:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.six:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+/* section eight end */
+/* section nine start */
+.section-nine{
+    border:1px solid black;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.letter-image{
+  width: 10%;
+  margin: auto;
+}
+.letter{
+    width: 150px;
+    height: 150px;
+}
+.sub{
+    text-align: center;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.nine-pera{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.search-bar{
+    width: 80%;
+    margin: auto;
+}
+.bar{
+    padding: 30px;
+    font-size: 20px;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+}
+.bar-btn{
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 72px;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+}
+.bar-btn:hover{
+    background-color: black;
+}
+/* section nine end */
+/* footer section start */
+.footer-section{
+    margin-left: 20px;
+    margin-right:20px ;
+    background: #070211;
+    border: 1px solid #070211;
+    width:1259px;
+    height: 1500;
+    border-radius:10px;
+    padding: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.one-column{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top:40px ;
+    padding-left: 50px;
+}
+.two-column{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    text-decoration: none;
+    padding-right: 50px;
+}
+.link{
+    color: #FFF;
+    text-decoration: none;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.all{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.un{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* footer section end */
