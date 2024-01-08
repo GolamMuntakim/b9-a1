@@ -1,11 +1,11 @@
 /* section one style start */
 .banner{
     display: block;
-    width: 1150px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
-    background: linear-gradient(180deg, #0d0c0d 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: linear-gradient(180deg, #0d0c0d 0%, rgba(11, 11, 146, 0) 100%);
 }
 .title{
   position: relative;
@@ -16,7 +16,7 @@
   top: 50%;
   left: 50%;
   text-align: center;
-  color: #dfd4d4;
+  color: #faf3f3;
   transform:translate(-50%, -50%);
   font-family: Merriweather;
 }
