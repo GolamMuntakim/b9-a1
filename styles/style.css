@@ -2,6 +2,7 @@
 *{
     margin-left: 30px;
     margin-right: 30px;
+    max-width: 1250;
 }
 .banner{
     display: block;
@@ -271,9 +272,9 @@
 }
 .box{
     height: 300px;
-    position: relative;
-    left: 100px;
-    top: 50px;
+    position: absolute; 
+    bottom: -3530px;
+    z-index:1; 
 }
 
 .lady{
@@ -284,6 +285,7 @@
 .more{
   position: relative;
   right:200px;
+ 
 }
 .red{
     width:1663px;
@@ -355,6 +357,8 @@
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     border: none;
+    padding: 50px;
+    padding-top: -20px;
 
 }
 .letter-image{
@@ -449,6 +453,9 @@
 .link{
     color: #FFF;
     text-decoration: none;
+}
+.link:hover{
+    color: red;
 }
 .social-link{
     display: flex;
